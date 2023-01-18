@@ -1,0 +1,60 @@
+unit Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TTMain = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    titulo: TEdit;
+    Label3: TLabel;
+    autor: TEdit;
+    Label4: TLabel;
+    comboGenero: TComboBox;
+    Label5: TLabel;
+    radioPort: TRadioButton;
+    radioEng: TRadioButton;
+    radioEsp: TRadioButton;
+    checkDisp: TCheckBox;
+    Label6: TLabel;
+    resumo: TMemo;
+    Label7: TLabel;
+    checkInternet: TCheckBox;
+    checkTelefone: TCheckBox;
+    checkFisica: TCheckBox;
+    excluir: TButton;
+    cadastrar: TButton;
+    pesquisar: TButton;
+    procedure pesquisarClick(Sender: TObject);
+    procedure excluirClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  TMain: TTMain;
+
+implementation
+
+{$R *.dfm}
+
+uses Search, excluir;
+
+procedure TTMain.excluirClick(Sender: TObject);
+begin
+  TExcluir.Show;
+end;
+
+procedure TTMain.pesquisarClick(Sender: TObject);
+begin
+  TSearch.Show;
+end;
+
+end.

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/15 19:00:09.000.239,=C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 19:00:22.000.847,=C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/15 19:39:41.000.771,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Unit2.pas</Transaction>
+    <Transaction>2022/12/15 19:39:41.000.771,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Unit2.dfm</Transaction>
+    <Transaction>2022/12/15 19:39:45.000.511,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 19:39:45.000.511,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Unit1.dfm</Transaction>
+    <Transaction>2022/12/15 19:39:52.000.922,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Teste.dproj</Transaction>
+    <Transaction>2022/12/15 20:39:05.000.038,=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\TesteDB\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

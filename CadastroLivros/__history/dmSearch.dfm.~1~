@@ -1,0 +1,23 @@
+object dmCadastro: TdmCadastro
+  OldCreateOrder = False
+  Height = 373
+  Width = 468
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 64
+    Top = 56
+  end
+  object FDConnection1: TFDConnection
+    Left = 200
+    Top = 56
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 88
+    Top = 200
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 248
+    Top = 200
+  end
+end

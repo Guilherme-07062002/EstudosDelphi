@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/11 10:24:13.000.259,=C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/11 10:25:05.000.766,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.dfm</Transaction>
+    <Transaction>2022/12/11 10:25:05.000.766,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+    <Transaction>2022/12/11 10:25:19.000.822,C:\Users\gguil\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\CadLivros.dproj</Transaction>
+    <Transaction>2022/12/16 19:24:53.000.453,=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit2.pas</Transaction>
+    <Transaction>2022/12/16 19:25:09.000.429,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Main.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.dfm</Transaction>
+    <Transaction>2022/12/16 19:25:09.000.429,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Main.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+    <Transaction>2022/12/16 19:25:18.000.958,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Search.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit2.pas</Transaction>
+    <Transaction>2022/12/16 19:25:18.000.958,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Search.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit2.dfm</Transaction>
+    <Transaction>2022/12/16 19:38:21.000.049,=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+    <Transaction>2022/12/16 19:38:58.000.820,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Excluir.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.dfm</Transaction>
+    <Transaction>2022/12/16 19:38:58.000.820,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Excluir.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+    <Transaction>2022/12/16 19:40:46.000.912,=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+    <Transaction>2022/12/16 19:42:06.000.714,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\dmSearch.dfm=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.dfm</Transaction>
+    <Transaction>2022/12/16 19:42:06.000.714,C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\dmSearch.pas=C:\Users\gguil\Desktop\EstudosPascal\EstudosDelphi\CadastroLivros\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

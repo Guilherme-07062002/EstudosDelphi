@@ -1,0 +1,64 @@
+unit Unit3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  FireDAC.UI.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Phys,
+  FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client, FireDAC.Comp.DataSet;
+
+type
+  TRegistrar = class(TForm)
+    Label1: TLabel;
+    nome: TEdit;
+    Label2: TLabel;
+    senha: TEdit;
+    Button1: TButton;
+    DataSource1: TDataSource;
+    RegisQuery: TFDQuery;
+    procedure Button1Click(Sender: TObject);
+    procedure inserirUsuario(ident:Integer; name: String; password: Integer);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Registrar: TRegistrar;
+  name: string;
+  password: integer;
+
+implementation
+
+
+{$R *.dfm}
+
+uses Unit2, Unit1;
+
+procedure TRegistrar.inserirUsuario(ident:Integer; name: String; password: Integer);
+begin
+    WITH Registrar.RegisQuery DO
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('INSERT INTO usuario(id, nome, senha) VALUES(:ident ,:name, :password)');
+      params.ParamByName('ident').Value := ident;
+      params.ParamByName('name').Value := name;
+      params.ParamByName('password').Value := password;
+      ExecSQL;
+    end;
+    ShowMessage('Inserido com sucesso.');
+end;
+
+procedure TRegistrar.Button1Click(Sender: TObject);
+begin
+
+inserirUsuario( Null, nome.Text, StrToInt(senha.Text));
+
+end;
+
+end.

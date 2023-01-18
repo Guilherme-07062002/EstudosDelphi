@@ -1,0 +1,40 @@
+object dmCadastro: TdmCadastro
+  OldCreateOrder = False
+  Height = 373
+  Width = 468
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files (x86)\Firebird\Firebird_4_0\fbclient.dll'
+    Left = 64
+    Top = 56
+  end
+  object connection: TFDConnection
+    Params.Strings = (
+      'Database=C:\CADLIVRO.FDB'
+      'User_Name=SYSDBA'
+      'Password=12345'
+      'Server=127.0.0.1'
+      'Port=3050'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 264
+    Top = 64
+  end
+  object FDQuery1: TFDQuery
+    Connection = connection
+    SQL.Strings = (
+      'SELECT * FROM livros;')
+    Left = 88
+    Top = 200
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 248
+    Top = 200
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 168
+    Top = 136
+  end
+end
